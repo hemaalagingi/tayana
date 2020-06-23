@@ -1,0 +1,12 @@
+<div class="mat-elevation-z4 card-cls">
+  Select customer:
+  <mat-form-field class = "form-element">
+  <mat-select>
+    <mat-option >Select Customer</mat-option>
+    <mat-option *ngFor="let customer of customers" [value]="customer.id">{{customer.customerName}}</mat-option>
+  </mat-select>
+</mat-form-field>
+
+  <button mat-raised-button color= "primary" (click) = "downloadLicense()">Download License</button>
+
+</div>

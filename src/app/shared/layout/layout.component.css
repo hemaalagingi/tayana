@@ -1,0 +1,64 @@
+.app-name {
+    margin-left:35%;
+    font-size: 25px;
+}
+.example-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .example-is-mobile .example-toolbar {
+    position: fixed;
+  
+    z-index: 1;
+  }
+  .example-toolbar {
+    background-color: lightslategray;
+    height: 8%;
+  }
+  .example-sidenav-container {
+    flex: 1;
+  }
+  
+  .example-is-mobile .example-sidenav-container {
+    flex: 1 0 auto;
+   
+  }
+
+  .menu-icon {
+      cursor: pointer;
+  }
+  .app-wrapper {
+      padding: 30px;
+      flex: 1 1 auto;
+      position: relative;
+      /* overflow: auto; */
+  }
+
+  .sideNav {
+    flex: 1 1 auto;
+    background-color: lightgrey;
+  }
+
+  .footer {
+   background-color: lightslategray;
+   bottom:0;
+   width:100%;
+   height:2%;
+   text-align: right;
+   font-size: 10px;
+  }
+
+  ::ng-deep .copy-right-icon {
+    font-size: 10px;
+    
+  }
+
+ 
+  
+

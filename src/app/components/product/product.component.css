@@ -1,0 +1,14 @@
+table {
+    width: 90%;
+  }
+  
+
+  .add-icon {
+    z-index : 1;
+    position: relative; 
+    top:10px;
+  }
+
+  .paginator {
+    width:90%;
+  }

@@ -1,0 +1,13 @@
+.form-element {
+    margin: 10px;
+}
+
+.footer-buttons {
+    margin-top: 5px;
+    text-align: right;
+    padding: 0 20PX, 0 20PX;
+}
+
+.footer-buttons button {
+    margin-left: 20px;
+}
